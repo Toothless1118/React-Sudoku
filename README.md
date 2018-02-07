@@ -8,7 +8,12 @@ This is a Simple Sudoku Game by ReactJS.
 1. Clone this repository
 2. Install dependencies
 
-        $ yarn install
+        $ npm install
+
 3. Run the local server
 
-        $ yarn start
+        $ npm start
+
+4. please test it on Chrome Browser!
+
+        http://localhost:3000
