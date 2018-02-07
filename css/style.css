@@ -1,0 +1,58 @@
+html, body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #efeae1;
+}
+#container {
+	margin: 0 auto;
+	text-align: center;
+}
+#board {
+	display: inline-block;
+}
+h1 {
+	font-weight: 300;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td {
+	padding: 0;
+}
+td:nth-child(3n+1) {
+	border-left: 2px solid black !important;
+}
+td:nth-child(3n+0) {
+	border-right: 2px solid black !important;
+}
+tr:nth-child(1) {
+	border-top: 2px solid black;
+}
+tr:nth-child(3n+0) {
+	border-bottom: 2px solid black;
+}
+input[data-errored="true"] {
+	background-color: #F44F4F;
+	border-color: #F44F4F;
+}
+input.sudoku-cell {
+	cursor: pointer;
+	font-size: 18px;
+	margin: 0;
+	padding: 2px 5px;
+	width: 10px;
+}
+input.sudoku-cell:hover:not([readonly]) {
+	border-color: #584b4f;
+}
+button.sudoku-control {
+	margin: 10px 5px;
+	display: inline;
+	outline: 0;
+}
+input[readonly] {
+	background-color: #dce1ea;
+}
+input[readonly]:hover {
+	cursor: default;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "react-sudoku",
+  "version": "0.0.1",
+  "authors": [
+    "Sara Bine <sara@sarabine.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "0.13.*",
+    "underscore": "1.8.*"
+  }
+}
