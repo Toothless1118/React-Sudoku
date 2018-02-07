@@ -1,7 +1,14 @@
 # React Sudoku
 
-A Sudoku project created for the sole purpose of learning ReactJS.
+This is a Simple Sudoku Game by ReactJS.
 
-[Play the demo](http://sarabine.com/portfolio/sudoku/)
 
-Sudoku library by [Einar Egilsson](https://github.com/einaregilsson/sudoku.js/), based on work by [Peter Norvig](http://norvig.com/sudopy.shtml).
+## Running Locally
+
+1. Clone this repository
+2. Install dependencies
+
+        $ yarn install
+3. Run the local server
+
+        $ yarn start
