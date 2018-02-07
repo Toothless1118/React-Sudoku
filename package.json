@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "name": "react-todos",
+  "version": "2.0.0",
+  "description": "Backbone's example TODO app with React for views",
+  "main": "todos.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "predeploy": "npm run build",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "repository": "ssorallen/react-todos",
+  "keywords": [
+    "backbone",
+    "reactjs",
+    "todos"
+  ],
+  "author": "Ross Allen <rossgit@gmail.com>",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/ssorallen/react-todos/issues"
+  },
+  "homepage": "http://www.ssorallen.com/react-todos/",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "backbone.localstorage": "^1.1.16",
+    "connect-backbone-to-react": "^1.1.0",
+    "jquery": "^3.2.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.56.0",
+    "gh-pages": "^1.0.0",
+    "react-scripts": "^1.0.14"
+  }
+}

@@ -1,0 +1,68 @@
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 100px 0;
+}
+.wrapper {
+  text-align: center;
+}
+.rowStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cellStyle {
+  color: blue;
+  width: 50px;
+  height: 50px;
+  border-left: 1px solid #1d6913cf;
+  border-top: 1px solid #1d6913cf;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rowStyle:last-child .cellStyle {
+  border-bottom: 1px solid #1d6913cf;
+}
+.cellStyle:last-child {
+  border-right: 1px solid #1d6913cf;
+}
+.selectedCellStyle {
+  color: blue;
+  width: 49px;
+  height: 49px;
+  border: 1px solid #f00;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #aaa;
+}
+.inputStyle {
+  width:  45px;
+  height: 45px;
+  border: none;
+  text-align: center;
+}
+.rowStyle:last-child .cellStyle .inputStyle {
+  /* border-bottom: 1px solid #1d6913cf; */
+}
+.inputSelectedStyle {
+  color: blue;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #f00;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #aaa;
+}
+.button {
+  margin-top: 100px;
+}
